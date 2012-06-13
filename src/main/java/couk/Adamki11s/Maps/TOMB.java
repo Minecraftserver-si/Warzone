@@ -1,7 +1,6 @@
 package couk.Adamki11s.Maps;
 
 import java.util.ArrayList;
-
 import org.bukkit.Location;
 
 public class TOMB extends Map {
