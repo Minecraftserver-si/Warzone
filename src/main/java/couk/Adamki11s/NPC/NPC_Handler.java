@@ -1,13 +1,13 @@
 package couk.Adamki11s.NPC;
 
+import com.topcat.npclib.NPCManager;
+import couk.Adamki11s.Extras.Random.ExtrasRandom;
+import couk.Adamki11s.Maps.Maps;
+import couk.Adamki11s.Warzone.Warzone;
 import java.util.ArrayList;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.World;
-import org.martin.bukkit.npclib.NPCManager;
-import couk.Adamki11s.Extras.Random.ExtrasRandom;
-import couk.Adamki11s.Maps.Maps;
-import couk.Adamki11s.Warzone.Warzone;
 
 public class NPC_Handler {
 

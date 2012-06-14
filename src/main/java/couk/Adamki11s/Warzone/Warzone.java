@@ -1,5 +1,6 @@
 package couk.Adamki11s.Warzone;
 
+import com.topcat.npclib.NPCManager;
 import couk.Adamki11s.Commands.WarzoneCommands;
 import couk.Adamki11s.Database.*;
 import couk.Adamki11s.Extras.Colour.ExtrasColour;
@@ -17,7 +18,6 @@ import org.bukkit.Server;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.martin.bukkit.npclib.NPCManager;
 
 public class Warzone extends JavaPlugin {
 
@@ -72,7 +72,6 @@ public class Warzone extends JavaPlugin {
         jp = this;
         server = getServer();
         PluginManager pm = server.getPluginManager();
-        pc.setupPermissions();
         loadMaps();
         new Initialise().init();
         mapsClass.initi();

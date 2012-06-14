@@ -1,5 +1,6 @@
 package couk.Adamki11s.Warzone;
 
+import com.topcat.npclib.nms.NPCEntity;
 import couk.Adamki11s.Database.Initialise;
 import couk.Adamki11s.Database.LobbyPlaceHolder;
 import couk.Adamki11s.Database.Preferences;
@@ -22,7 +23,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
 import org.bukkit.event.player.*;
-import org.martin.bukkit.npclib.NPCEntity;
 
 public class WarzonePlayerListener implements Listener {
 
@@ -78,7 +78,7 @@ public class WarzonePlayerListener implements Listener {
     ExtrasInventory invManage = new ExtrasInventory();
     ExtrasPlayer exP = new ExtrasPlayer();
     Preferences pref = new Preferences();
-    
+
     @EventHandler
     public void onPlayerInteract(PlayerInteractEvent evt) {
         Player player = evt.getPlayer();
@@ -117,7 +117,7 @@ public class WarzonePlayerListener implements Listener {
             }
         }
     }
-    
+
     @EventHandler
     public void onPlayerToggleSneak(PlayerToggleSneakEvent evt) {
         Player player = evt.getPlayer();
@@ -130,7 +130,7 @@ public class WarzonePlayerListener implements Listener {
             }
         }
     }
-    
+
     @EventHandler
     public void onPlayerDropItem(PlayerDropItemEvent evt) {
         Player player = evt.getPlayer();
@@ -140,7 +140,7 @@ public class WarzonePlayerListener implements Listener {
             }
         }
     }
-    
+
     @EventHandler
     public void onPlayerPortal(PlayerPortalEvent evt) {
         if (evt.getPlayer().getWorld() == Maps.Warzone_World) {

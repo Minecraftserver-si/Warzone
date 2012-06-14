@@ -1,7 +1,6 @@
 package couk.Adamki11s.Database;
 
 public class CoreConfiguration {
-	
-	public static int coalAMT = 10;
 
+    public static int coalAMT = 10;
 }

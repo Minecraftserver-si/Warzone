@@ -2,8 +2,8 @@ package couk.Adamki11s.Extras.Random;
 
 import org.bukkit.Server;
 import org.bukkit.World;
-import org.bukkit.entity.CreatureType;
 import org.bukkit.entity.Entity;
+import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
 
 public abstract class RandomMethods {
@@ -33,10 +33,10 @@ public abstract class RandomMethods {
 	public abstract float getRandomFloat(float upperBound, float lowerBound);
 	
 	/**
-	 * Returns a random CreatureType.
-	 * @return Returns a random CreatureType.
+	 * Returns a random EntityType.
+	 * @return Returns a random EntityType.
 	 */
-	public abstract CreatureType getRandomCreature();
+	public abstract EntityType getRandomCreature();
 	
 	/**
 	 * Returns a random living entity from the specified world.
